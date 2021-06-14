@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    width: 100%;
+    background: #272b35;
+}
+
+header {
+    position: relative;
+    align-items: center;
+    padding: 4%;
+    background: #EEEEEE;
+}
+
+#header {
+    background-image: url('https://rickandmortyapi.com/api/character/avatar/189.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+h1 {
+    text-align: center;
+    border: none;
+    color: #272b35;
+    font-size: 100px;
+}
+
+.imagens {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.imagens div{
+    position: relative;
+    display: inline-block;
+    padding-top: 2%;
+    margin: 20px;
+    align-items: center;
+    border: 2px solid #DDDDDD;
+    border-radius: 5%;
+}
+
+main > section p {
+    font-size: 30px;
+    font-weight: bold;
+    color: #EEEEEE;   
+}
